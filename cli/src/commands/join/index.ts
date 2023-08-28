@@ -26,7 +26,6 @@ export default class Join extends Command {
     } else {
       room = await ux.prompt(chalk.yellow("Room name"));
     }
-    this.log(username, room);
 
     if (!username) {
       throw new Error(`Username cannot be empty`);
