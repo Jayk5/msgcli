@@ -17,9 +17,12 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^2",
+    "@oclif/core": "^2.11.8",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^3.2.0"
+    "@oclif/plugin-plugins": "^3.2.0",
+    "chalk": "^4.1.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
     "@oclif/test": "^2.4.2",
@@ -44,8 +47,8 @@
     ],
     "topicSeparator": " ",
     "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
+      "join": {
+        "description": "Join a room for chatting"
       }
     }
   },
