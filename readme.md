@@ -1,5 +1,3 @@
-# Readme msgcli
-
 <!-- toc -->
 
 - [Usage](#usage)
@@ -77,3 +75,19 @@ EXAMPLES
 _See code: [dist/commands/join/index.ts](https://github.com/Jayk5/msgcli/blob/v0.0.0/dist/commands/join/index.ts)_
 
 <!-- commandsstop -->
+
+# Local Setup
+
+<!-- local -->
+
+## Requirements
+
+- Node.js (tested on Node v20.5.0)
+- npm (tested on npm v9.8.0)
+
+## Steps
+
+- Run `npm install` in both cli and server folders.
+- In server, use `node index.js` for starting backend.
+- In cli, use `npm run transpile` or `npm run build` to compile.
+- Use `./bin/run` or `./bin/dev` in cli for testing.
